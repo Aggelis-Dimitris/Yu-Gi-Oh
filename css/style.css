@@ -1,0 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700|Droid+Serif:400,400italic);
+body {
+  background-color: #cfe5b3;
+  font-family: 'Droid Serif', serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+a, a:focus, a:hover, a:visited {
+  color: #b0e283;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 15px 0px;
+  width: 100%;
+}
+
+.container {
+  background-color: #afafdb;
+  margin: 0px auto;
+  padding: 0px;
+}
+
+.row {
+  margin: 2px 0px;
+  padding: 5px;
+}
+
+#header, #footer {
+  position: relative;
+  background-color: #474445;
+  color: #afafdb;
+  padding: 5px 65px 5px 15px;
+}
+
+#name {
+  line-height: 25px;
+  text-overflow: ellipsis;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+
+  .container {
+    margin: 10px auto;
+  }
+
+  #name{
+    line-height: 50px;
+    height: 50px;
+  }
+
+  #header {
+    padding-left: 65px;
+  }
+}
+
+#buttons {
+  text-align: center;
+}
+
+#text {
+  width: 100%;
+}
+
+#footer {
+  text-align: center;
+}
+
+@media (max-width: 560px) {
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .col-xs-9{
+    padding-left: 15%;
+  }
+}  
